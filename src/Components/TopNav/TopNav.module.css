@@ -1,0 +1,75 @@
+.headerTopMenu {
+  text-align: center;
+}
+
+a {
+  color: #0076be;
+  text-decoration: none;
+  margin: 0;
+}
+
+.headerTopMenu a {
+  display: inline-block;
+  margin-left: -3px;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.headerTopMenu a:before {
+  content: "";
+  height: 15px;
+  width: 1px;
+  background: #ccc;
+  position: absolute;
+  top: 13px;
+  right: 0;
+  display: block;
+}
+
+/* Header */
+.logo {
+  margin-left: 3rem;
+}
+/*Right Section*/
+.headerAccountLinks {
+  /* display: none; */
+  float: right;
+  margin-top: 6px;
+  margin-right: 4rem;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.headerAccountLinks .accountPanelTriggerContainer {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.headerAccountLinks .accountPanelTriggerContainer a {
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.headerAccountLinks .accountPanelTriggerContainer .or {
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  line-height: 21px;
+}
+
+.headerAccountLinks .headerChineseLink {
+  color: #b71234;
+  font-weight: 700;
+}

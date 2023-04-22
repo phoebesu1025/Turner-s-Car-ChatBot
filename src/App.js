@@ -1,10 +1,14 @@
-import './App.css';
+import MainContent from "./Components/MainContent/MainContent";
+import SubNav from "./Components/SubNav/SubNav";
+import TopNav from "./Components/TopNav/TopNav";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <TopNav />
+      <SubNav />
+      <MainContent />
+    </>
   );
 }
 
