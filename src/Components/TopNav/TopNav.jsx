@@ -1,7 +1,6 @@
 import React from "react";
-import { FaMapMarkerAlt, FaUserAlt, FaSearch, FaBars } from "react-icons/fa";
+import { FaMapMarkerAlt, FaUserAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FiSearch } from "react-icons/fi";
 import styles from "./TopNav.module.css";
 
 export default function TopNav() {
