@@ -1,0 +1,28 @@
+h1 {
+  margin-left: 4rem;
+  margin-top: 0rem;
+  font-size: 24px;
+}
+
+.contentContainer {
+  margin: 1rem 4rem;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.mainContentBg {
+  background-color: #dcdcdc8e;
+  display: flex;
+  justify-content: space-around;
+}
+.mainContent {
+  /* margin: 0 8rem; */
+  width: 70%;
+  background-color: white;
+}

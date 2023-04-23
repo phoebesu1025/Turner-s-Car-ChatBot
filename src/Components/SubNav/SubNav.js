@@ -7,31 +7,31 @@ export default function SubNav() {
     <div className={styles.largeScreenMainMenu}>
       <div className={styles.contentMaxWidth}>
         <ul className={styles.leftMenu}>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               <FaSearch style={{ marginRight: "0.5rem" }} />
               Find a Car
             </a>
           </li>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               How to Buy
               <RiArrowDropDownLine className={styles.icon} />
             </a>
           </li>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               Sell your Car
               <RiArrowDropDownLine className={styles.icon} />
             </a>
           </li>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               Finance & Insurance
               <RiArrowDropDownLine className={styles.icon} />
             </a>
           </li>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               Turners Subscription
               <RiArrowDropDownLine className={styles.icon} />
@@ -40,13 +40,13 @@ export default function SubNav() {
         </ul>
 
         <ul className={styles.rightMenu}>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               Auctions
               <RiArrowDropDownLine className={styles.icon} />
             </a>
           </li>
-          <li>
+          <li className={styles.subNavLi}>
             <a href="/" className={styles.subMenuTrigger}>
               Services & Info
               <RiArrowDropDownLine className={styles.icon} />

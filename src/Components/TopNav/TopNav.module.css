@@ -30,15 +30,18 @@ a {
 }
 
 /* Header */
-.logo {
-  margin-left: 3rem;
+
+.topNavContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  width: 100%;
 }
 /*Right Section*/
 .headerAccountLinks {
   /* display: none; */
-  float: right;
   margin-top: 6px;
-  margin-right: 4rem;
+  margin-right: 0;
   position: relative;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;

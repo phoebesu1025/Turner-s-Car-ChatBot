@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import Header from "./Header/Header";
+import OnlineAuctions from "./Content/OnlineAuctions";
+import BreadCrumb from "./BreadCrumbs/BreadCrumb";
+import styles from "./MainContent.module.css";
 
-export default class MainContent extends Component {
-  render() {
-    return (
-      <>
-        <Header />
-        content
-      </>
-    );
-  }
+export default function MainContent() {
+  return (
+    <div className={styles.mainContentBg}>
+      <div className={styles.mainContent}>
+        <BreadCrumb />
+        <OnlineAuctions />
+      </div>
+    </div>
+  );
 }

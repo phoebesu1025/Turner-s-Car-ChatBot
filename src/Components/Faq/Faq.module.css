@@ -1,0 +1,29 @@
+.faqContainer {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  width: 65%;
+  padding: 1rem;
+}
+
+.lastContainer {
+  border-bottom: 1px solid #ccc;
+}
+
+.faqQuestion {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(50, 83, 172);
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:active {
+  opacity: 0.5;
+}

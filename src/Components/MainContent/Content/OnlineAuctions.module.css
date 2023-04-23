@@ -1,0 +1,21 @@
+p {
+  font-size: 14px;
+  width: 60%;
+}
+
+span {
+  color: #0076be;
+}
+
+.contentLi {
+  list-style-type: circle;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px;
+  width: 60%;
+}
+.newOnlineAuctionImg {
+  width: 100%;
+}

@@ -1,5 +1,7 @@
 .largeScreenMainMenu {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
   background: #0076be;
   position: relative;
   z-index: 100;
@@ -8,22 +10,20 @@
 
 .contentMaxWidth {
   display: flex;
-  justify-content: space-between;
-
-  width: 100vw;
+  justify-content: space-around;
+  gap: 5rem;
+  width: 85%;
 }
 
 .contentMaxWidth .leftMenu {
-  width: 70%;
   display: flex;
 }
 
 .contentMaxWidth .rightMenu {
   display: flex;
-  margin-right: 40px;
 }
 
-li {
+.subNavLi {
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -36,12 +36,13 @@ li {
   text-decoration: none;
   display: inline-block;
   margin: -1rem 0;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 10px 15px 15px;
   position: relative;
   transition: color 0.4s ease-in-out, background 0.4s ease-in-out,
     opacity 0.4s ease-in-out;
   display: flex;
   align-items: center;
+  min-width: max-content;
 }
 
 .icon {
