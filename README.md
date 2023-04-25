@@ -8,7 +8,7 @@ The goal of this project was to improve the user experience for those searching 
 <ul>
   <li>React Frontend</li>
 <li>Google Dialogflow chatbot</li>
-<li>Custom Playload</li>
+<li>Custom Playload in Google Dialogflow chatbot</li>
 </ul>
 
 https://user-images.githubusercontent.com/111402381/234404120-8f1087b2-1412-492e-b4fe-ee121d3ce3e7.mp4
