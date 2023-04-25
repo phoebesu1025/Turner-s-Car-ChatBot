@@ -1,7 +1,7 @@
-https://turners-car-chatbot.netlify.app/  <br/>
 This project is part of the mission in Mission Ready's Advanced Software Development course. <br><br>
 
-The goal of this project was to improve the user experience for those searching for Online Auction FAQs on Turner's Car website. To achieve this, I developed a prototype Turner's website and integrated a chatbot using Google Dialogflow. Users can either type in the topic they would like to know more about or click on default buttons that have been set up to guide them to the correct answer.
+The goal of this project was to improve the user experience for those searching for Online Auction FAQs on Turner's Car website. To achieve this, I developed a prototype Turner's website and integrated a chatbot using Google Dialogflow. Users can either type in the topic they would like to know more about or click on default buttons that have been set up to guide them to the correct answer.<br/>
+https://turners-car-chatbot.netlify.app/  
 
 
 <h2>⭐Highlight</h2>
