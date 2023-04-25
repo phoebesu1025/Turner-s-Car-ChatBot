@@ -10,7 +10,9 @@ The goal of this project was to improve the user experience for those searching 
 <li>Google Dialogflow chatbot</li>
 <li>Custom Playload in Google Dialogflow chatbot</li>
 </ul>
-![image](https://user-images.githubusercontent.com/111402381/234431078-4455b436-c8fa-421b-9f35-1689971a2946.png)
+
+![image](https://user-images.githubusercontent.com/111402381/234431078-4455b436-c8fa-421b-9f35-1689971a2946.png) 
+
 ![image](https://user-images.githubusercontent.com/111402381/234431166-5d126c72-17b7-4962-aaa2-c6a4e9627359.png)
 
 https://user-images.githubusercontent.com/111402381/234404120-8f1087b2-1412-492e-b4fe-ee121d3ce3e7.mp4
